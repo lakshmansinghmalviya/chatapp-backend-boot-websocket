@@ -6,7 +6,7 @@ spring:
     active: dev
   # 🗄️ DATABASE CONFIGURATION
   datasource:
-    url: postgresql://chatapp_user:3gaooO6UVeqXfHmqYYtXkamMM418flWw@dpg-d47p11u3jp1c73c5mtig-a/chatapp_db_abmq
+    url: jdbc:postgresql://dpg-d47p11u3jp1c73c5mtig-a.oregon-postgres.render.com/chatapp_db_abmq
     username: chatapp_user
     password: 3gaooO6UVeqXfHmqYYtXkamMM418flWw
     driver-class-name: org.postgresql.Driver
